@@ -1,0 +1,24 @@
+{
+  "name": "shuo/obser",
+  "authors": [
+    {
+      "name": "李硕",
+      "email": "598684053@qq.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "MyApp\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.5.*"
+  }
+}
