@@ -27,6 +27,10 @@ class ComposerStaticInit4368607d3a00053c0324e1e002c4b397
         array (
             'MyApp\\' => 6,
         ),
+        'I' => 
+        array (
+            'InterfaceApp\\' => 13,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -52,6 +56,10 @@ class ComposerStaticInit4368607d3a00053c0324e1e002c4b397
         'MyApp\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
+        ),
+        'InterfaceApp\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/interface',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

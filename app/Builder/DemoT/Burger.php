@@ -7,7 +7,7 @@
 namespace MyApp\Builder\DemoT;
 
 
-abstract class ItemBurger implements Item
+abstract class Burger implements Item
 {
     public function packing ():Packing
     {
@@ -15,4 +15,6 @@ abstract class ItemBurger implements Item
     }
 
     public abstract function price ():float;
+
+    public abstract function name ():string;
 }

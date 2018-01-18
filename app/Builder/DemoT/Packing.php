@@ -7,7 +7,7 @@
 namespace MyApp\Builder\DemoT;
 
 
-class Packing
+interface Packing
 {
-
+    public function pack ():string;
 }

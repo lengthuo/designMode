@@ -7,7 +7,16 @@
 namespace MyApp\Builder\DemoT;
 
 
-class Pepsi
+class Pepsi extends ColdDrink
 {
 
+    public function price ():float
+    {
+        return (float)20.00;
+    }
+
+    public function name ():string
+    {
+        return "Pepsi";
+    }
 }

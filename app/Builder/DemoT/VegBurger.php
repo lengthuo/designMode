@@ -7,7 +7,17 @@
 namespace MyApp\Builder\DemoT;
 
 
-class VegBurger
+class VegBurger extends Burger
 {
+    public function price ():float
+    {
+        return "20.00";
+    }
+
+    public function name ():string
+    {
+        return "VegBurger";
+    }
+
 
 }

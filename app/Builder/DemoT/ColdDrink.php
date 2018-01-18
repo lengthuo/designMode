@@ -7,7 +7,7 @@
 namespace MyApp\Builder\DemoT;
 
 
-abstract class ItemColdDrink implements Item
+abstract class ColdDrink implements Item
 {
     public function packing ():Packing
     {

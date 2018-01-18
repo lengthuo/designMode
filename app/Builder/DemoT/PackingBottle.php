@@ -7,11 +7,11 @@
 namespace MyApp\Builder\DemoT;
 
 
-class Bottle implements Packing
+class PackingBottle implements Packing
 {
 
     public function pack ():string
     {
-    
+        return "Bottle"; //瓶子包装
     }
 }

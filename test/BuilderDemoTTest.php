@@ -9,10 +9,11 @@ namespace MyApp\Test;
 
 use MyApp\Builder\BuilderInterfaceImpl;
 use MyApp\Builder\Car;
+use MyApp\Builder\DemoT\MealBuilder;
 use MyApp\Builder\Director;
 use PHPUnit\Framework\TestCase;
 
-class BuilderTest extends TestCase
+class BuilderDemoTTest extends TestCase
 {
     protected function setUp ()
     {
@@ -21,11 +22,15 @@ class BuilderTest extends TestCase
 
     public function test_demo ()
     {
-        $builder = new BuilderInterfaceImpl();//创造者
-        $director = new Director();//导演
+        $mealBuilder = new MealBuilder();
+        $mealBuilder = $mealBuilder->prepareVegMeal();
 
-        $res = $director->builder($builder);
-        $this->assertInstanceOf(Car::class, $res);
+        //多少钱
+        $cost = $mealBuilder->getCost();
+        $this->assertEquals(30, $cost);
+        //里面都有什么
+        //        $item = $mealBuilder->showItem();
+
 
     }
 }

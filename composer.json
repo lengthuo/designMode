@@ -10,12 +10,14 @@
   },
   "autoload": {
     "psr-4": {
-      "MyApp\\": "app/"
+      "MyApp\\": "app/",
+      "InterfaceApp\\":"interface/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Test\\": "test/"
+      "Test\\": "test/",
+      "InterfaceTest\\":"interfaceTest/"
     }
   },
   "require-dev": {
