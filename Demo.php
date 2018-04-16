@@ -37,9 +37,5 @@
 //array_push($a, 3.00);
 //array_pop($a);//弹出数组最后一个单元（出栈）
 //var_dump($a);
-<<<<<<< HEAD
 //aa
 //asdasd
-=======
-//aa
->>>>>>> 671ff8f... readme
