@@ -16,7 +16,7 @@ class AdapterTest extends TestCase {
     {
         require __DIR__ . '/../vendor/autoload.php';
     }
-
+//ad
     public function test_voltage5 ()
     {
         $dst = (new VoltageAdapter(new Voltage220Impl()))->out5V();
