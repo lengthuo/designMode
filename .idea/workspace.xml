@@ -17,15 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="336">
-                <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -218,32 +215,6 @@
               <item name="设计模式" type="b2602c69:ProjectViewProjectNode" />
               <item name="设计模式" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="设计模式" type="b2602c69:ProjectViewProjectNode" />
-              <item name="设计模式" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="设计模式" type="b2602c69:ProjectViewProjectNode" />
-              <item name="设计模式" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Adapter" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="设计模式" type="b2602c69:ProjectViewProjectNode" />
-              <item name="设计模式" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="interface" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="设计模式" type="b2602c69:ProjectViewProjectNode" />
-              <item name="设计模式" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="interfaceTest" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="设计模式" type="b2602c69:ProjectViewProjectNode" />
-              <item name="设计模式" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -310,7 +281,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39159000" />
+    <option name="totallyTimeSpent" value="39161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
