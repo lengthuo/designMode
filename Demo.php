@@ -38,3 +38,4 @@
 //array_pop($a);//弹出数组最后一个单元（出栈）
 //var_dump($a);
 //aa
+//asdasd
